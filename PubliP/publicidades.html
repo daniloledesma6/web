@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PubliFM10</title>
+    <link rel="stylesheet" href="/styles/publicidades.css">
+    <script defer src="/src/publicidades.js"></script>
+</head>
+<body>
+
+    <h1>Publicidades Cargadas</h1>
+
+    <button class="ordenar-fecha" onclick="ordenarPorFecha()">Ordenar por Fecha</button>
+
+    <table id="publicidadesTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio por Mes</th>
+                <th>Fecha de Carga</th>
+                <th>Descripcion</th>
+                <th>Direccion</th>
+                <th>CUIT</th>
+                <th>IVA</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="publicidadesBody">
+        
+        </tbody>
+    </table>
+    
+    <a class="cargar-nueva" href="/cargarpublicidad.html">Cargar nueva publicidad</a>
+
+    
+
+    <button class="cargar-nueva" onclick="calcularTotal()">Calcular Total</button>
+
+
+
+    <div class="total-calculado" id="totalContainer"></div>
+</body>
+</html>

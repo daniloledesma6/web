@@ -1,0 +1,96 @@
+@font-face{
+    font-family: 'roboto';
+    src:url(/fuentess/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: 'poppins';
+    src:url(/fuentess/Poppins-Black.ttf);
+}
+@font-face{
+    font-family: 'quick';
+    src:url(/fuentess/Quicksand-Regular.ttf);
+}
+
+html{
+    background-color: #202124;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+h1{
+    font-family: 'quick';
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 29px;
+    font-size: 40px;
+}
+.ordenar-fecha{
+    background-color: #202124;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    margin: 20px;
+    font-family: 'quick';
+}
+.ordenar-fecha:hover{
+    background-color: white;
+    color: #202124;
+    transition: 0.3s;
+}
+table{
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'quick';
+    border-radius: 10px;
+    margin: 20px;
+}
+.cargar-nueva{
+    background-color: #202124;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'quick';
+    margin: 20px;
+}
+.cargar-nueva:hover{
+    background-color: white;
+    color: #202124;
+    transition: 0.4s;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'quick';
+}
+a:hover{
+    background-color: white;
+    color: #202124;
+    transition: 0.3s;
+}
+.total-calculado{
+    color: white;
+    font-family: 'quick';
+    font-size: large;
+    padding: 30px;
+}
+tr td button{
+    background-color: #202124;
+    color: white;
+    border: 1px solid #202124;
+    border-radius: 3px;
+    padding: 3px;
+    font-family: 'quick';
+}
+tr td button:hover{
+    background-color: white;
+    color: #202124;
+    transition: 0.3s;
+}

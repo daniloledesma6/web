@@ -1,0 +1,101 @@
+@font-face{
+    font-family: 'roboto';
+    src:url(/fuentess/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: 'poppins';
+    src:url(/fuentess/Poppins-Black.ttf);
+}
+@font-face{
+    font-family: 'quick';
+    src:url(/fuentess/Quicksand-Regular.ttf);
+}
+
+
+html{
+    background-color: #202124;
+}
+
+h1{
+    font-family: 'quick';
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.enviar-class{
+    padding: 10px;
+    font-family: 'quick';
+    color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: #202124;
+    font-size: 14px;
+    width: 120px;
+    height: 60px;
+}
+.enviar-class:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: #202124;
+    cursor: pointer;
+}
+
+.ingresar-class{
+    background-color: #202124;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    height: 35px;
+}
+
+.section-uno button{
+    font-family: 'quick';
+    color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: #202124;
+    font-size: 25px;
+    padding: 30px;
+    margin-top: 250px;
+}
+
+.section-dos button{
+    font-family: 'quick';
+    color: white;
+    margin-left: 50px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: #202124;
+    font-size: 25px;
+    padding: 30px;
+    margin-top: 250px;
+}
+
+.section-dos button:hover{
+    color: #202124;
+    background-color: white;
+    transition: 0.5s;
+}
+.section-uno button:hover{
+    color: #202124;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.contenedor-secciones{
+    display: flex;
+    align-items: center;
+}
+
